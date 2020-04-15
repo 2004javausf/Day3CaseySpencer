@@ -1,7 +1,14 @@
 package com.revature.stats;
 
+import java.util.Arrays;
+
 public class Ailments {
 	
+	@Override
+	public String toString() {
+		return "Ailments [ailments=" + Arrays.toString(ailments) + "]";
+	}
+
 	String[] ailments = new String[10];
 
 	public String[] getAilments() {
